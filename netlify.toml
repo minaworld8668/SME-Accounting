@@ -1,0 +1,12 @@
+# Cấu hình deploy Netlify cho Next.js 14 (App Router)
+# Netlify tự cài @netlify/plugin-nextjs khi phát hiện Next.js.
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
