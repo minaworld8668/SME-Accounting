@@ -8,5 +8,9 @@ npm-debug.log*
 .env*.local
 netlify-import.env.txt
 .vercel
+
+# Agent skills tooling (không liên quan code website)
+.agents/
+.claude/skills/
 *.tsbuildinfo
 next-env.d.ts
