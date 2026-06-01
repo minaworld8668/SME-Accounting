@@ -12,5 +12,6 @@ netlify-import.env.txt
 # Agent skills tooling (không liên quan code website)
 .agents/
 .claude/skills/
+skills-lock.json
 *.tsbuildinfo
 next-env.d.ts
